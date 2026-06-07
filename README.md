@@ -52,7 +52,7 @@ If Wi-Fi is unavailable, the device falls back to offline/manual mode automatica
 | 5V | Servo VCC (from MiniBoost output) |
 | GND | All component grounds (shared) |
 
-> ⚠️ The servo draws significant current — power it from the 5V MiniBoost output, **not** directly from the ESP32's 3.3V pin. Make sure all grounds are connected together.
+> The servo draws significant current — power it from the 5V MiniBoost output, **not** directly from the ESP32's 3.3V pin. Make sure all grounds are connected together.
 
 ---
 
@@ -109,7 +109,7 @@ Install these via the Arduino IDE Library Manager (**Sketch → Include Library 
 
 ## Calibration
 
-The first time you use the device (or after changing blinds), you need to calibrate the travel time:
+The first time you use the device (or after changing the blinds), you need to calibrate the travel time:
 
 1. Hold the **Calibrate button** for more than 2 seconds — the OLED will show *"Calibration Mode"*
 2. Hold the **Down button** until the blind is fully closed, then press **Calibrate** to save
